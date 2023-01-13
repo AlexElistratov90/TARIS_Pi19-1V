@@ -4,7 +4,6 @@ from unittest import mock
 
 from currency import get_total_currency_value, get_currency_value_from_api
 
-
 class TestCurrency(unittest.TestCase):
 
     @pytest.mark.base
